@@ -12,6 +12,7 @@ fn main() {
     }
 
     println!("cargo:rustc-link-lib=dylib=Ultralight");
+    println!("cargo:rustc-link-lib=dylib=UltralightCore");
     println!("cargo:rustc-link-lib=dylib=WebCore");
     println!("cargo:rustc-link-lib=dylib=AppCore");
 
