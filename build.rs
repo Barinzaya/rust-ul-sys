@@ -2,7 +2,7 @@ use std::env;
 use std::path::PathBuf;
 
 fn main() {
-    if let Some(p) = env::var_os("UL_PATH") {
+    if let Some(p) = env::var_os("ULTRALIGHT_SDK_ROOT") {
         let ul_path = PathBuf::from(p);
 
         let lib_path = ul_path.join("lib");
