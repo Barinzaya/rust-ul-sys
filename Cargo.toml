@@ -10,4 +10,4 @@ repository = "https://github.com/psychonautwiki/rust-ul-sys"
 edition = "2018"
 
 [build-dependencies]
-bindgen = "0.55.1"
+bindgen = "0.60"
